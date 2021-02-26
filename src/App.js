@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
+import Form from './components/Form'
 
-function App() {
+const App = () => {
   return (
       <Fragment>
-        
+        <Form/>
       </Fragment>
   );
 }
